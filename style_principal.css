@@ -79,7 +79,8 @@ footer {
     width: 99%;
     border-radius: 10px;
     margin-left: 5px;
-
+    bottom: 0;
+    position: absolute;
 
 }
 
@@ -87,7 +88,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 35%;
-    padding-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     .footer_boutons button{
