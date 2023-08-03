@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(43, 43, 44);
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+header {
+    background-color: rgb(43, 43, 44);
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+
+}
+
+    .nav_logo {
+        padding-left: 20px;
+        width: 50%;
+        font-weight: bold;
+    }
+
+    .nav_choix{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8em;
+        align-items: center;
+    }
+
+
+.section_pageprincipale {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+    .article_textepageprincipale{
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1;
+
+    }
+
+        .article_textepageprincipale h1 {
+            font-size: 4em;
+        }
+
+        .article_textepageprincipale h2{
+            color: rgb(80, 80, 255);
+        }
+
+        .article_textepageprincipale p{
+            width: 80%;
+        }
+
+    .img_accueilprincicpal{
+        width: 38vw;
+    }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    background-color: black;
+    width: 99%;
+    border-radius: 10px;
+    margin-left: 5px;
+
+
+}
+
+    .footer_boutons{
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+    padding-bottom: 10px;
+    }
+
+    .footer_boutons button{
+        width: 130px;
+        height: 30px;
+        background-color:  rgb(80, 80, 255);
+        border-radius: 8px;
+        color: white;
+        border: solid 1px  rgb(80, 80, 255);
+        margin-bottom: 3px;
+    }
+
+    .footer_logo_investisseurs{
+        width: 60%;
+
+    }
+
+    .investisseur_logo{
+        width: 100px;
+        padding-left: 130px;
+    }
